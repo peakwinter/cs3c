@@ -1,9 +1,0 @@
-setup.py
-cs3c.egg-info/PKG-INFO
-cs3c.egg-info/SOURCES.txt
-cs3c.egg-info/dependency_links.txt
-cs3c.egg-info/entry_points.txt
-cs3c.egg-info/requires.txt
-cs3c.egg-info/top_level.txt
-tests/__init__.py
-tests/cs3c_tests.py
