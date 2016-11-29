@@ -1,0 +1,3 @@
+[console_scripts]
+cs3c = cs3c:cli
+
