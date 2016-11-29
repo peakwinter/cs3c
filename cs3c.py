@@ -124,7 +124,7 @@ def iterbuckets(
             ) if sto["last_modified"] else y["LastModified"]
 
         # return gathered data and sums
-        data = {
+        bucket_data = {
             "name": x.name,
             "creation_date": x.creation_date,
             "location": location,
@@ -140,9 +140,9 @@ def iterbuckets(
             "storage_types": []
         }
         if storage_type:
-            data["storage_types"] = data
+            bucket_data["storage_types"] = data
 
-        yield data
+        yield bucket_data
 
 
 def iterobjects(s3, name, prefix_filter):
